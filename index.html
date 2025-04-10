@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>High School Tutoring Packages</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    body {
+      flex: 1;
+    }
+
+    main {
+      flex: 1;
+    }
+
+    header {
+      background-color: black;
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1rem 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.8rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form button {
+      padding: 0.6rem 1.5rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      width: 100%;
+    }
+    body::before {
+  content: "";
+  background-image: url('a1.jpg'); /* replace with your image URL or path */
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15; /* adjust transparency */
+  z-index: -1;
+}
+
+  </style>
+</head>
+<body>
+    
+
+  <header>
+    <h1>High School Tutoring Packages</h1>
+    <p>Choose the right support for your success</p>
+  </header>
+
+  <nav>
+    <a href="#individual">Individual</a>
+    <a href="#group">Group</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section class="section" id="individual">
+      <h2>Individual Packages</h2>
+
+      <h3>Once-Off</h3>
+      <table>
+        <tr>
+          <th>Price</th>
+          <th>Duration</th>
+          <th>Includes</th>
+        </tr>
+        <tr>
+          <td>R250</td>
+          <td>1 Hour</td>
+          <td>Homework / Assignment Assistance</td>
+        </tr>
+        <tr>
+          <td>R350</td>
+          <td>1 Hour</td>
+          <td>Required Lesson + Lesson Notes</td>
+        </tr>
+        <tr>
+          <td>R450</td>
+          <td>1 Hour + 30min</td>
+          <td>Lesson + Notes + Test (Exam Type)</td>
+        </tr>
+      </table>
+
+      <h3>Hourly Packages</h3>
+      <table>
+        <tr>
+          <th>Price</th>
+          <th>Total Hours</th>
+          <th>Includes</th>
+        </tr>
+        <tr>
+          <td>R3,000</td>
+          <td>9h + 1 Free Hour</td>
+          <td>Lessons, Notes, Exercises, Tests, Progress Report</td>
+        </tr>
+        <tr>
+          <td>R5,800</td>
+          <td>18h + 2 Free Hours</td>
+          <td>Lessons, Notes, Exercises, Tests, 2 Progress Reports</td>
+        </tr>
+        <tr>
+          <td>R7,500</td>
+          <td>27h + 3 Free Hours</td>
+          <td>Lessons, Notes, Exercises, Tests, 3 Progress Reports</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section" id="group">
+      <h2>Group Packages (Min. 3 People)</h2>
+
+      <h3>Once-Off</h3>
+      <table>
+        <tr>
+          <th>Price (per person)</th>
+          <th>Duration</th>
+          <th>Includes</th>
+        </tr>
+        <tr>
+          <td>R100</td>
+          <td>1 Hour</td>
+          <td>Homework / Assignment Assistance</td>
+        </tr>
+        <tr>
+          <td>R200</td>
+          <td>1 Hour</td>
+          <td>Lesson + Lesson Notes</td>
+        </tr>
+        <tr>
+          <td>R300</td>
+          <td>1 Hour + 30min</td>
+          <td>Lesson + Notes + Test (Exam Type)</td>
+        </tr>
+      </table>
+
+      <h3>Hourly Packages</h3>
+      <table>
+        <tr>
+          <th>Price (per person)</th>
+          <th>Total Hours</th>
+          <th>Includes</th>
+        </tr>
+        <tr>
+          <td>R2,400</td>
+          <td>10 Hours</td>
+          <td>Lessons, Notes, Exercises, Tests, Progress Report</td>
+        </tr>
+        <tr>
+          <td>R4,700</td>
+          <td>20 Hours</td>
+          <td>Lessons, Notes, Exercises, Tests, 2 Progress Reports</td>
+        </tr>
+        <tr>
+          <td>R6,600</td>
+          <td>30 Hours</td>
+          <td>Lessons, Notes, Exercises, Tests, 3 Progress Reports</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact & Booking</h2>
+      <p>If you'd like to book a lesson or ask a question, feel free to reach out!</p>
+
+      <h3>📞 Contact Details</h3>
+      <ul>
+        <li><strong>Phone:</strong> 076 123 4567</li>
+        <li><strong>Email:</strong> bookings@phenyotutoring.co.za</li>
+        <li><strong>Location:</strong> South Africa (Online & In-Person Options)</li>
+      </ul>
+
+      <h3>📝 Quick Booking Form</h3>
+      <form action="https://formsubmit.co/sebogodiphenyo7@gmail.com" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="package">Package Interested In:</label>
+        <select id="package" name="package">
+          <option value="individual_basic">Individual Once-Off - R250</option>
+          <option value="individual_10hr">Individual - 10hr Package</option>
+          <option value="group_basic">Group Once-Off - R100 pp</option>
+          <option value="group_20hr">Group - 20hr Package</option>
+        </select>
+
+        <label for="message">Any Questions?</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    Created by @Phenyo | All rights reserved
+  </footer>
+
+</body>
+</html>
